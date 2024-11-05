@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="func1()">Click Me!</button>
+    <select id="drop">
+        <option value="red" >red</option>
+        <option value="blue">blue</option>
+        <option value="orange">orange</option>
+    </select>
+    <input id="o1" type="radio" name="r1" value="blue">blue
+    <input id="o2" type="radio" name="r1" value="green">gree
+    <input id="o3" type="radio" name="r1" value="white">white
+
+</body>
+<script>
+    // alert("Hi to my website")
+    // alert(confirm("Are you male"))
+    // var age=prompt("Your age")
+    // document.write(age)
+    var imgEle=document.createElement("img");
+    imgEle.src="image.png";
+    imgEle.setAttribute("id","image1");
+
+    document.body.append(imgEle);
+    
+    console.log(document.getElementById("image1"));
+    function func1(){
+        var colour=document.getElementById("drop").value;
+        console.log(colour)
+    
+    for(var i=1;i<=3;i++){
+        if(document.getElementById("o"+i).checked){
+            console.log(document.getElementById("o"+i).value)
+        }
+    }
+}
+</script>
+</html>

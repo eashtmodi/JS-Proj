@@ -1,0 +1,145 @@
+.container1,.blackjack-container{
+    border: black solid;
+    margin: 10px;
+    /* background-color: black; */
+}
+
+.heading1{
+    border:1mm solid black;
+    padding: 5mm;
+    display: flex;
+    justify-content: center;
+    margin: 03mm;
+    background-color: blanchedalmond;
+  
+}
+.button1 {
+    border: solid 1mm black; 
+    display: flex;
+    padding: 10px; 
+    justify-content: space-around;
+    margin: 5mm;
+    background-color: burlywood;
+
+}
+.button1 div{
+    border: solid 1mm red;
+    background-color: black;
+    padding: 10px;
+}
+.catflexbox{
+    display: flex;
+    border: solid black;
+    padding: 10px;
+    margin:5mm;
+
+}
+.catImages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* border: black solid; */
+    padding: 10px;
+    
+    
+    
+}
+.catImage {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: black solid 1mm;
+    /* padding: 10px; */
+    box-shadow: 0px 5px 10px black;
+    margin:3mm;
+    
+    
+    
+}
+
+.gameImages{
+    border: 1mm solid black;
+    margin: 5mm;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: burlywood;
+
+
+}
+.gameImages img{
+    width: 100px;
+    height: 100px;
+    margin: 5mm;
+}
+.gameImages img:hover{
+    box-shadow: 0px 0px 50px blueviolet;
+}
+
+
+/* blackjack starts */
+.flex-blackjack1,.flex-blackjack2{
+    background-color:burlywood;
+    border: hsl(0, 0%, 0%) solid 1mm;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4DQ9Vn3luZeMzE1xHmQYo_gZS8aNa0A6A8rhLYV3x5CQuFlmeASaq_wm0rYIEgWS0jbk&usqp=CAU');
+    color: #FFFFFF;
+}
+.flex-blackjack1 div{
+    border: 0.5mm solid black;
+    height:350px;
+    text-align: center;
+    flex:auto;
+}
+.flex-blackjack1 img{
+    width: 100px;
+    height: 125px;
+    margin: 3mm;
+    border: black solid 1mm;
+}
+
+
+
+    
+
+
+.userCardImagescss{
+    display: flex;
+    justify-content:space-around;
+   
+}
+.userCardImagescss img{
+    width: 100px;
+    height: 100px;
+    /* margin: 1mm; */
+    border: 1mm solid black;
+
+   
+
+
+}
+
+.flex-blackjack2 button{
+    border: darkgoldenrod solid 1mm;
+    padding: 20px;
+    margin: 20px;
+}
+
+.flex-blackjack3{
+    background-color:burlywood;
+    border: black solid 1mm;
+    margin: 5mm;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.flex-blackjack3 table,th,td{
+    border: darkgoldenrod solid 1mm;
+    margin: 5mm;
+    padding: 20px;
+   
+    
+}
+

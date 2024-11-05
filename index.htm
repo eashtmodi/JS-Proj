@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title> my website</title>
+        <style>
+            #heading1{
+                font-size: 90pt;
+            }
+            .header{
+                color:goldenrod;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class="header" id="heading1">Welcome</h1>
+        <h1 class="header" id="heading2">to my website</h1>
+        <p1>ooo</p1>
+        <button id="btn" onclick="fn()">click me!</button>
+        <input type="color" id="colorpicker2">please enter</input>
+        <input type="color" id="colorpicker">please enter</input>
+
+        <script>
+             
+            function fn(){
+                document.body.style.background= document.getElementById("colorpicker").value;
+                document.getElementById("heading1").style.color= document.getElementById("colorpicker2").value;
+
+            };
+        </script>
+    </body>
+</html>

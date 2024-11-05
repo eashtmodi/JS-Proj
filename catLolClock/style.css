@@ -1,0 +1,46 @@
+body{
+    background-color: #f16059;
+}
+.mainFlexBox{
+    background-color: #f16059;
+    margin:25%;
+    border: solid black;
+    text-align: center;
+
+}
+h1 {
+    font-family: 'Bungee Shade', cursive;
+  }
+h2{
+    font-size: 21px;
+    font-family: 'Bungee', cursive;
+}
+blockquote {
+    font: 2em/1em 'Open Sans', sans-serif;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 2px 2px #000;
+    margin: -80px 0 100px 0;
+    color: #fff; 
+  }
+  
+#wakeUpTimeSelector, #lunchTimeSelector, #napTimeSelector {
+    padding: 10px 0;
+     }
+#partyTimeButton {
+    background-color: #222;
+    width: 300px;
+    font-family: 'Bungee', cursive;
+    font-size: 18px;
+    color: #fff;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+    }
+#buttonContainer{
+    display: flex;
+    justify-content:center;
+}

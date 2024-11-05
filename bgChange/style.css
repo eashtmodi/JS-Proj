@@ -1,0 +1,10 @@
+#flexMainContainer{
+    text-align: center;
+    margin: 20px;
+    border: solid 10px goldenrod;
+}
+
+h1{
+    font-family: 'bungee shadow',cursive;
+    color:red;
+}
